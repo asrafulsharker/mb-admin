@@ -13,7 +13,7 @@ function Login() {
                     <div className="login-left-part">
                         <p style={{ fontWeight: "400", fontSize: "48px", textAlign: "center", color: "#44A08D", lineHeight: "normal", padding: "0px" }}>Welcome back!</p>
                         <p style={{ textAlign: "center", fontSize: "14px", opacity: "0.8", marginBottom: "48px", color: "#464646" }}>Customize your Customer’s cravings with Cost Efficient Smarter Menus</p>
-                        <img src=".../../../../../public/images/auth/amico.png" alt="" />
+                        <img src="/images/auth/amico.png" alt="" />
                     </div>
                     <div className="login-right-part">
                         <p style={{ textAlign: "center", fontSize: "28px", fontWeight: "800", fontStyle: "normal", color: "#464646" }}>Login</p>
