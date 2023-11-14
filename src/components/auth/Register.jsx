@@ -15,17 +15,18 @@ function Register() {
               <p style={{ fontSize: "24px", color: "#464646", fontWeight: "500", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Create Account</p>
               <p style={{ fontSize: "14px", color: "#464646", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Create an account to start using Make my menu service and enjoy all the benefits.</p>
               <div className="" style={{ display: "flex", gap: "10px", marginTop: "10px" }}>
-                <TextField id="outlined-basic" label="First Name" required variant="outlined" style={{ width: "100%" }} />
-                <TextField id="outlined-basic" label="Last Name" required variant="outlined" style={{ width: "100%" }} />
+                <TextField id="outlined-basic" label="First Name" placeholder='e.g. Jhon' required variant="outlined" style={{ width: "100%" }} />
+                <TextField id="outlined-basic" label="Last Name" required variant="outlined" placeholder='e.g. Doe' style={{ width: "100%" }} />
 
               </div>
-              <TextField id="outlined-basic" label="Enter your email" required variant="outlined" style={{ width: "100%", marginTop: "10px" }} />
+              <TextField id="outlined-basic" label="Enter your email" placeholder='e.g. username@mail.com' required variant="outlined" style={{ width: "100%", marginTop: "10px" }} />
               <TextField
                 id="outlined-password-input"
                 label="Password"
                 type="password"
                 autoComplete="current-password"
                 variant="outlined"
+                placeholder='***********'
                 required
                 style={{ width: "100%", marginTop: "10px" }}
               />
@@ -35,6 +36,7 @@ function Register() {
                 type="password"
                 autoComplete="current-password"
                 variant="outlined"
+                placeholder='***********'
                 required
                 style={{ width: "100%", marginTop: "10px" }}
               />

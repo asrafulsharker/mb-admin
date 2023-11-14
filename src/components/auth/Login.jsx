@@ -17,13 +17,15 @@ function Login() {
                     </div>
                     <div className="login-right-part">
                         <p style={{ textAlign: "center", fontSize: "28px", fontWeight: "800", fontStyle: "normal", color: "#464646" }}>Login</p>
-                        <TextField id="outlined-basic" label="Enter your email/phone number" variant="outlined" style={{ width: "100%" }} />
+                        <TextField id="outlined-basic" label="Email/Phone Number" placeholder="Enter your email/phone number" required variant="outlined" style={{ width: "100%" }} />
                         <TextField
                             id="outlined-password-input"
                             label="Password"
                             type="password"
                             autoComplete="current-password"
                             variant="outlined"
+                            required
+                            placeholder="****"
                             style={{ width: "100%", marginTop: "10px" }}
                         />
                         <p style={{ fontSize: "12px", fontWeight: "400", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Forget Password? <a href="#" style={{ color: "#44A08D" }}>Click here</a></p>
