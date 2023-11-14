@@ -11,7 +11,7 @@ function CenterBoard() {
 
             <div className="" style={{ width: "60%" }}>
                 <div className="center-nav" style={{ backgroundColor: "#FFFF", height: "75px" }}>
-                    <div style={{ backgroundColor: "#FFFF", padding: "5px", borderRadius: "5px", display: "flex", justifyContent: "flex-end", boxShadow: "initial" }}>
+                    <div style={{ backgroundColor: "#FFFF", padding: "5px", borderRadius: "5px", display: "flex", justifyContent: "flex-end", boxShadow: "0px 4px 8px 0px rgba(0, 0, 0, 0.16)" }}>
                         <FormControl sx={{ m: 1, minWidth: 250 }}>
                             <InputLabel id="branch-label">Select Branch</InputLabel>
                             <Select
@@ -61,7 +61,7 @@ function CenterBoard() {
                         </FormControl>
                     </div>
 
-                    <div className="boxOrderBAdge" style={{ display: "flex", marginTop: "8px", gap: "20px" }}>
+                    <div className="boxOrderBAdge" style={{ display: "flex", marginTop: "20px", gap: "20px" }}>
                         <div className="boxBadge" style={{ backgroundColor: "#F4EBFF", padding: "24px 32px", borderRadius: "16px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", flexGrow: "1" }}>
                             <div className="semiboxBadge" style={{ display: "flex", alignItems: "center", fontSize: "16px", color: "#76648E" }}>
                                 <AddCardIcon style={{ fontSize: "25px" }} />
@@ -72,21 +72,21 @@ function CenterBoard() {
                         <div className="boxBadge" style={{ backgroundColor: "#E7F8FF", padding: "24px 32px", borderRadius: "16px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", flexGrow: "1" }}>
                             <div className="semiboxBadge" style={{ display: "flex", alignItems: "center", fontSize: "16px", color: "#76648E" }}>
                                 <AddCardIcon style={{ fontSize: "25px" }} />
-                                <p style={{ fontWeight: "bold", marginLeft: "10px" }}>Total Revinew</p>
+                                <p style={{ fontWeight: "bold", marginLeft: "10px" }}>Total Scan</p>
                             </div>
                             <p style={{ fontSize: "28px", fontWeight: "500", marginTop: "8px", color: "#76648E" }}>$ 1305K</p>
                         </div>
                         <div className="boxBadge" style={{ backgroundColor: "#FFEFEA", padding: "24px 32px", borderRadius: "16px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", flexGrow: "1" }}>
                             <div className="semiboxBadge" style={{ display: "flex", alignItems: "center", fontSize: "16px", color: "#76648E" }}>
                                 <AddCardIcon style={{ fontSize: "25px" }} />
-                                <p style={{ fontWeight: "bold", marginLeft: "10px" }}>Total Revinew</p>
+                                <p style={{ fontWeight: "bold", marginLeft: "10px" }}>Total Order</p>
                             </div>
                             <p style={{ fontSize: "28px", fontWeight: "500", marginTop: "8px", color: "#76648E" }}>$ 1305K</p>
                         </div>
                         <div className="boxBadge" style={{ backgroundColor: "#E9F2FF", marginRight: "5px", padding: "24px 32px", borderRadius: "16px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", flexGrow: "1" }}>
                             <div className="semiboxBadge" style={{ display: "flex", alignItems: "center", fontSize: "16px", color: "#76648E" }}>
                                 <AddCardIcon style={{ fontSize: "25px" }} />
-                                <p style={{ fontWeight: "bold", marginLeft: "10px" }}>Total Revinew</p>
+                                <p style={{ fontWeight: "bold", marginLeft: "10px" }}>Total Menu</p>
                             </div>
                             <p style={{ fontSize: "28px", fontWeight: "500", marginTop: "8px", color: "#76648E" }}>$ 1305K</p>
                         </div>
