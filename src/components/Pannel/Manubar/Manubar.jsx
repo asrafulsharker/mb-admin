@@ -24,13 +24,13 @@ function Manubar() {
 
 
          
-          <NavLink to="/dashboard" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }} activeClassName="active-link">
+          <NavLink to="/dashboard" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }} >
             <div className="button" style={{ display: 'flex', alignItems: 'center', padding: '8px' }}>
               <SpaceDashboardOutlinedIcon />
               <p style={{ fontSize: '18px', marginLeft: '10px' }}>Dashboard</p>
             </div>
           </NavLink>
-          <NavLink to="/orders" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }} activeClassName="active-link">
+          <NavLink to="/orders" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }} >
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px", flexGrow: "0" }}>
             <div className="" style={{ display: "flex", alignItems: "center" }}>
               <FlipToFrontOutlinedIcon />
@@ -46,51 +46,81 @@ function Manubar() {
           
           <p style={{ fontSize: "15px", marginTop: "10px" }}>Reservation</p>
           <div className="" style={{ backgroundColor: "#44a08d", width: "100%", height: "1px", marginBottom: "10px" }}></div>
+          <NavLink to="/reservation" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <ResetTvOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Reservation</p>
           </div>
+          </NavLink>
+          
+          <NavLink to="/table" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <BackupTableOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Table</p>
           </div>
+          </NavLink>
+          
+          <NavLink to="/floor" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <FloodOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Floor</p>
           </div>
+          </NavLink>
+         
 
           <p style={{ fontSize: "15px", marginTop: "10px" }}>Profile</p>
           <div className="" style={{ backgroundColor: "#44a08d", width: "100%", height: "1px", marginBottom: "10px" }}></div>
+
+          <NavLink to="/resturent" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <DataThresholdingOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Resturent</p>
           </div>
+          </NavLink>
+          
+          <NavLink to="/branch" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <AddBusinessOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Branch</p>
           </div>
+          </NavLink>
+          
+
+          <NavLink to="/profile" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <Person2OutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Profile</p>
           </div>
+          </NavLink>
+       
 
           <p style={{ fontSize: "15px", marginTop: "10px" }}>Essentials</p>
           <div className="" style={{ backgroundColor: "#44a08d", width: "100%", height: "1px", marginBottom: "10px" }}></div>
+          <NavLink to="/qr" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <QrCodeScannerOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>QR Code</p>
           </div>
+          </NavLink>
+          
+          <NavLink to="/settings" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <SettingsOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Settings</p>
           </div>
+          </NavLink>
+        
 
           <p style={{ fontSize: "15px", marginTop: "10px" }}>Warnning</p>
           <div className="" style={{ backgroundColor: "#44a08d", width: "100%", height: "1px", marginBottom: "10px" }}></div>
+
+          <NavLink to="/logout" exact style={{ textDecoration: 'none', cursor: 'pointer',borderRadius:"5px",color:"#464646",fontSize:"16px" }}>
           <div className="button" style={{ display: "flex", alignItems: "center", padding: "8px" }}>
             <LogoutOutlinedIcon />
             <p style={{ fontSize: "18px", marginLeft: "10px" }}>Logout</p>
           </div>
+          </NavLink>
+         
 
         </div>
       </div>
