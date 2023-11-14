@@ -28,7 +28,7 @@ function Login() {
                         />
                         <p style={{ fontSize: "12px", fontWeight: "400", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Forget Password? <a href="#" style={{ color: "#44A08D" }}>Click here</a></p>
                         <Button variant="contained" style={{ backgroundColor: "#44A08D", color: "#FFFF", width: "100%" }}>Login</Button>
-                        <p style={{ textAlign: "center", fontSize: "12px", fontWeight: "400", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Don't have an account? <Link to="register" style={{ color: "#44A08D" }}>Sign Up Now</Link></p>
+                        <p style={{ textAlign: "center", fontSize: "12px", fontWeight: "400", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Don't have an account? <Link to="register" style={{ color: "#44A08D",textDecoration:"none" }}>Sign Up Now</Link></p>
 
 
                     </div>

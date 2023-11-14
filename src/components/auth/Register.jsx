@@ -38,12 +38,12 @@ function Register() {
                 required
                 style={{ width: "100%", marginTop: "10px" }}
               />
-              <div className="" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>  <Checkbox /><p>I agree to all the <a href="">Terms & Condition</a></p></div>
+              <div className="" style={{ display: "flex", alignItems: "center", fontSize:"14px"}}>  <Checkbox style={{color:"#44A08D"}}  /><p>I agree to all the <a href="" style={{color:"#44A08D",textDecoration:"none"}}>Terms & Condition</a></p></div>
               <Link to="/verifyaccount">
                 <Button variant="contained" style={{ backgroundColor: "#44A08D", color: "#FFFF", width: "100%" }}>Next</Button>
 
               </Link>
-              <p style={{ textAlign: "center", fontSize: "12px", fontWeight: "400", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Already have an account? <Link to="/" style={{ color: "#44A08D" }}>Login</Link></p>
+              <p style={{ textAlign: "center", fontSize: "14px", fontWeight: "400", marginBlockStart: "1em", marginBlockEnd: "1em" }}>Already have an account? <Link to="/" style={{ color: "#44A08D" ,textDecoration:"none"}}>Login</Link></p>
 
             </div>
           </div>

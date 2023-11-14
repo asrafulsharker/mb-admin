@@ -12,6 +12,7 @@ import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Register from "./components/auth/Register";
 import VerifyAccount from "./components/VerifyAccount/VerifyAccount";
 import CreateResturent from "./components/CreateResturent/CreateResturent";
+import ResturentInformation from "./components/ResturentInformation/ResturentInformation";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/createresturent',
         element: <CreateResturent/>,
+      },
+      {
+        path: '/resturentinformation',
+        element: <ResturentInformation/>,
       },
       
     ]
