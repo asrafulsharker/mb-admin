@@ -15,6 +15,7 @@ import CreateResturent from "./components/CreateResturent/CreateResturent";
 import ResturentInformation from "./components/ResturentInformation/ResturentInformation";
 import ForgetPassword from "./components/auth/ForgetPassword";
 import ResetPassword from "./components/auth/ResetPassword";
+import Dashboard from "./components/Pannel/Dashboard/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: '/resetpassword',
         element: <ResetPassword/>,
+      },
+      {
+        path: '/dashboard',
+        element: <Dashboard/>,
       },
       
     ]
