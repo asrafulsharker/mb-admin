@@ -9,7 +9,7 @@ function CenterBoard() {
     return (
         <>
 
-            <div className="" style={{ width: "60%" }}>
+            <div className="" style={{ width: "59%" ,marginTop:"20px"}}>
                 <div className="center-nav" style={{ backgroundColor: "#FFFF", height: "75px" }}>
                     <div style={{ backgroundColor: "#FFFF", padding: "5px", borderRadius: "5px", display: "flex", justifyContent: "flex-end", boxShadow: "0px 4px 8px 0px rgba(0, 0, 0, 0.16)" }}>
                         <FormControl sx={{ m: 1, minWidth: 250 }}>

@@ -17,7 +17,7 @@ import './MenuBar.css'
 function Manubar() {
   return (
     <>
-      <div className="n" style={{ width: "20%", backgroundColor: "#FFFF", padding: "10px" }}>
+      <div className="n" style={{ width: "18%", backgroundColor: "#FFFF", padding: "10px" }}>
         <ResturentInformationPannel />
         <div className="" style={{ display: "flex", flexDirection: "column" }}>
           <div className="" style={{ width: "100%", height: "1px", backgroundColor: "#708E88", marginTop: "20px", marginBottom: "15px" }}></div>
