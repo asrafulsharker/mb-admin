@@ -16,6 +16,7 @@ import ResturentInformation from "./components/ResturentInformation/ResturentInf
 import ForgetPassword from "./components/auth/ForgetPassword";
 import ResetPassword from "./components/auth/ResetPassword";
 import Dashboard from "./components/Pannel/Dashboard/Dashboard";
+import Steper from "./components/Steper/Steper.jsx";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: '/dashboard',
         element: <Dashboard/>,
+      },
+      {
+        path: '/steper',
+        element: <Steper/>,
       },
       
     ]
